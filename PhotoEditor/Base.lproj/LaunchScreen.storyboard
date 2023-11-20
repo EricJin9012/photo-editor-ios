@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="5p7-RE-2tf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo Lab Advanced Image Editor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emR-Ru-9ZY">
+                                <rect key="frame" x="29.5" y="321.5" width="317.5" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.92238074541091919" green="0.0045059286057949066" blue="0.34306153655052185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5p7-RE-2tf" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="8rR-Sg-g3y"/>
+                            <constraint firstItem="5p7-RE-2tf" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="A8e-6p-OIx"/>
+                            <constraint firstItem="5p7-RE-2tf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JiP-25-oFz"/>
+                            <constraint firstItem="5p7-RE-2tf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xqq-8j-2ok"/>
+                            <constraint firstItem="emR-Ru-9ZY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hsm-7L-dsS"/>
+                            <constraint firstItem="emR-Ru-9ZY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tRd-Jn-7xj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="1152" height="2048"/>
+    </resources>
+</document>
